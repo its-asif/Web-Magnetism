@@ -30,7 +30,7 @@ const OurWork = () => {
                 {/* card1 */}
                 <div >
                     <div className="rounded-lg">
-                        <img src="../../public/work1.png" className="rounded-lg w-full h-auto"  alt="" />
+                        <img src="work1.png" className="rounded-lg w-full h-auto"  alt="" />
                     </div>
 
                     <div className="py-2">
@@ -46,7 +46,7 @@ const OurWork = () => {
                 {/* card2 */}
                 <div >
                     <div className="rounded-lg">
-                        <img src="../../public/work2.png" className="rounded-lg w-full h-auto"  alt="" />
+                        <img src="work2.png" className="rounded-lg w-full h-auto"  alt="" />
                     </div>
 
                     <div className="py-2">
@@ -62,7 +62,7 @@ const OurWork = () => {
                 {/* card3 */}
                 <div >
                     <div className="rounded-lg">
-                        <img src="../../public/work3.png" className="rounded-lg w-full h-auto"  alt="" />
+                        <img src="work3.png" className="rounded-lg w-full h-auto"  alt="" />
                     </div>
 
                     <div className="py-2">

@@ -34,7 +34,7 @@ const Header = () => {
 
             {/* wave */}
             <section className="wave-container mx-auto w-full">
-                <img src="../../public/Rectangle 17.png" alt="Wave Mosaic"
+                <img src="Rectangle 17.png" alt="Wave Mosaic"
                     className='w-full'
                     style={{
                         background: 'linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%)',

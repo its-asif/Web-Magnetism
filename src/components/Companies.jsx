@@ -4,7 +4,7 @@ const Companies = () => {
         <div className='my-20'>
             <div>
                 <img 
-                    src="../../public/companies.png" 
+                    src="companies.png" 
                     className='w-full overflow-clip' 
                     alt="" 
                 />

@@ -26,7 +26,7 @@ const ClientReview = () => {
                     <div class="flex flex-col items-center gap-4">
                         <img
                             alt=""
-                            src="../../public/person1.png"
+                            src="person1.png"
                             class="size-14 rounded-full object-cover"
                         />
 
@@ -68,7 +68,7 @@ const ClientReview = () => {
                     <div class="flex flex-col items-center gap-4">
                         <img
                             alt=""
-                            src="../../public/person2.png"
+                            src="person2.png"
                             class="size-14 rounded-full object-cover"
                         />
 
@@ -110,7 +110,7 @@ const ClientReview = () => {
                     <div class="flex flex-col items-center gap-4">
                         <img
                             alt=""
-                            src="../../public/person3.png"
+                            src="person3.png"
                             class="size-14 rounded-full object-cover"
                         />
 

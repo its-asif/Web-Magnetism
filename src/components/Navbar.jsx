@@ -5,7 +5,7 @@ const Navbar = () => {
             className='absolute w-full h-20 bg-transparent flex justify-between items-center px-10'
         >
             <div>
-                <img src="../../public/logo.png" alt="" />
+                <img src="logo.png" alt="" />
             </div>
 
             <div className='cursor-pointer'>

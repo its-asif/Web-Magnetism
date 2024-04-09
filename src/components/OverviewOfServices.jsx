@@ -12,7 +12,7 @@ const OverviewOfServices = () => {
                 {/* card1 */}
                 <div >
                     <div className="rounded-lg w-full h-auto">
-                        <img src="../../public/overview1.png" className="rounded-lg w-full h-auto" alt="" />
+                        <img src="overview1.png" className="rounded-lg w-full h-auto" alt="" />
                     </div>
 
                     <div className="py-2">
@@ -39,7 +39,7 @@ const OverviewOfServices = () => {
                 {/* card2 */}
                 <div >
                     <div className="rounded-lg w-full h-auto">
-                        <img src="../../public/overview2.png" className="rounded-lg w-full h-auto"  alt="" />
+                        <img src="overview2.png" className="rounded-lg w-full h-auto"  alt="" />
                     </div>
 
                     <div className="py-2">
@@ -66,7 +66,7 @@ const OverviewOfServices = () => {
                 {/* card3 */}
                 <div >
                     <div className="rounded-lg">
-                        <img src="../../public/overview3.png" className="rounded-lg w-auto h-auto"  alt="" />
+                        <img src="overview3.png" className="rounded-lg w-auto h-auto"  alt="" />
                     </div>
 
                     <div className="py-2">

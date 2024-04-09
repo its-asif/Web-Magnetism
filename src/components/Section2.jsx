@@ -36,7 +36,7 @@ const Section2 = () => {
                         <div className=" flex items-center">
                             <img
                             alt=""
-                                src="../../public/image section 2.png"
+                                src="image section 2.png"
                                 className="mx-auto w-96px h-auto"
                             />
 

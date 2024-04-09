@@ -18,7 +18,7 @@ const Section3 = () => {
             <div
                 className='flex flex-col items-center justify-center mt-12'
             >
-                <img src="../../public/funnel.png" alt="" />
+                <img src="funnel.png" alt="" />
             </div>
 
         </div>
