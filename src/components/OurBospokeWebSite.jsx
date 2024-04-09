@@ -13,7 +13,7 @@ const OurBospokeWebSite = () => {
         >
             <WhyChooseUs/>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 my-10 pb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 my-10 pb-20 gap-10 md:gap-10">
 
                 {/* left side */}
                 <div className="mx-auto w-3/4">
