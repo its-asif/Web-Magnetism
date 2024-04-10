@@ -53,9 +53,9 @@ const ClientReview = () => {
                 `}
             </style>
 
-            <Slider {...settings} className=''>
+            <Slider {...settings} className='mx-10 md:mx-0'>
                 {/* col1 */}
-                <div className='px-10'>
+                <div className='md:px-6'>
                 <div className="rounded-lg p-6 shadow-lg sm:p-8">
                     <div className="flex flex-col items-center gap-4">
                         <img
@@ -96,7 +96,7 @@ const ClientReview = () => {
                 </div>
 
                 {/* col2 */}
-                <div className='px-10'>
+                <div className='md:px-6'>
                 <div className="rounded-lg p-6 shadow-lg sm:p-8">
                     <div className="flex flex-col items-center gap-4">
                         <img
@@ -137,7 +137,7 @@ const ClientReview = () => {
                 </div>
 
                 {/* col3 */}
-                <div className='px-10'>
+                <div className='md:px-6'>
                 <div className="rounded-lg p-6 shadow-lg sm:p-8">
                     <div className="flex flex-col items-center gap-4">
                         <img
