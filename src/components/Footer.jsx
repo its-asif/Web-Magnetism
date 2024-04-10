@@ -42,7 +42,7 @@ const Footer = () => {
                     }}  
                 />
 
-
+                {/* columns */}
                 <div className="grid grid-cols-1 md:grid-cols-5">
 
                     {/* Col 1 & 2 */}
@@ -80,25 +80,46 @@ const Footer = () => {
                         <h1 className="font-bold border-b-2 py-2 md:py-4">Contact us</h1>
                     </div>
 
-                    {/* Col 4 */}
-                    <div className="mx-8">
-                        <h1 className="font-bold border-b-2 py-2 md:py-4">Resources</h1>
-                        <h1 className="font-thin py-2 md:py-4">Our Work</h1>
-                        <h1 className="font-thin py-2 md:py-4">Insights</h1>
+                    {/* col 4 & 5 */}
+                    <div className="col-span-1 md:col-span-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2">
+                            {/* Col 4 */}
+                            <div className="mx-8">
+                                <h1 className="font-bold border-b-2 py-2 md:py-4">Resources</h1>
+                                <h1 className="font-thin py-2 md:py-4">Our Work</h1>
+                                <h1 className="font-thin py-2 md:py-4">Insights</h1>
+                            </div>
+
+                            {/* Col 5 */}
+                            <div className="mx-8">
+                                <h1 className="font-bold border-b-2 py-2 md:py-4">Social Media</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaFacebookF  className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6"/> Facebook</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaInstagram className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Instagram</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTwitter className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Twitter</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTelegramPlane className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Telegram</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaYoutube className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> YouTube</h1>
+                                <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTiktok className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Tiktok</h1>
+
+                            </div>
+
+                        </div>
+                        <div className="mt-4">
+                            <h1 className="font-bold">
+                                Subscribe to our weekly newsletter today!
+                                <div
+                                    className="flex items-center gap-4 p-1 pr-2 rounded-lg mt-2"
+                                    style={{
+                                        background: 'linear-gradient(98.97deg, #5B53F9 -7.32%, #AC71D6 80.95%, #FF8E57 100.86%)',
+                                    }}
+                                >
+                                <input type="email" placeholder="Enter your email here" 
+                                className="bg-[#1c0c26] rounded-l-lg text-white border-0 p-2 w-full focus:border-0"/>
+
+                                    <div className="font-bold text-white text-2xl mb-1">&gt;</div>
+                                </div>
+                            </h1>
+                        </div>
                     </div>
-
-                    {/* Col 5 */}
-                    <div className="mx-8">
-                        <h1 className="font-bold border-b-2 py-2 md:py-4">Social Media</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaFacebookF  className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6"/> Facebook</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaInstagram className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Instagram</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTwitter className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Twitter</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTelegramPlane className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Telegram</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaYoutube className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> YouTube</h1>
-                        <h1 className="font-thin py-2 md:py-4 flex gap-2 items-center"> <FaTiktok className="bg-[#785EEB] text-white rounded-full p-1 h-6 w-6 "/> Tiktok</h1>
-
-                    </div>
-
                 </div>
 
             </div>
