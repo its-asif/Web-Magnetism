@@ -1,4 +1,3 @@
-import React from 'react';
 import { GoArrowUpRight } from 'react-icons/go';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -49,7 +48,8 @@ const OurWork = () => {
                 {`
                     .slick-dots li button:before {
                         color: #a855f7; 
-                        font-size: 20px;
+                        font-size: 14px;
+                        margin-top: 10px;
                     }
 
                     .slick-dots li.slick-active button:before {
@@ -108,15 +108,6 @@ const OurWork = () => {
                 </div>
             </Slider>
 
-            {/* <div className="flex justify-center items-center mb-20">
-                <div className='font-bold text-purple-500 mx-6 text-xl pb-1'> &lt; </div>
-                <div className="flex gap-4">
-                    <div className="w-4 h-4 border-2 bg-purple-500 rounded-full"></div>
-                    <div className="w-4 h-4 border-2 border-purple-500 rounded-full"></div>
-                    <div className="w-4 h-4 border-2 border-purple-500 rounded-full"></div>
-                </div>
-                <div className='font-bold text-purple-500 mx-6 text-xl pb-1'> &gt; </div>
-            </div> */}
         </div>
     );
 };

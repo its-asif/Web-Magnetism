@@ -2,7 +2,7 @@ import React from 'react';
 
 const FormSection = () => {
     return (
-        <div className='my-20 bg-[#f3f2ff] p-10'>
+        <div className=' bg-[#f3f2ff] p-10 py-20'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40'>
                 <div>
                     <h1 className='text-4xl font-semibold'>
@@ -24,32 +24,32 @@ const FormSection = () => {
                         <div className='flex flex-col gap-4 mt-4 justify-center items-center'>
                             {/* Name */}
                             <input placeholder='Name' type='text' id='name' 
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
                             
                             {/* Email */}
                             <input placeholder='Email' type='email' id='email' 
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
                             
                             {/* Company */}
                             <input placeholder='Company' type='text' id='company' 
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
                             
                             {/* Phone number */}
                             <input placeholder='Phone Number' type='number' id='phone' 
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
 
                             {/* file */}
                             <input type='file' id='file' placeholder='Send us your brief'
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
                             
                             {/* Message */}
                             <textarea placeholder='Message' id='message' 
-                                className=' border-2 p-2 rounded-lg w-80 border-[#CACACA]'
+                                className=' border-2 border-opacity-50 p-2 rounded-lg w-80 border-[#CACACA]'
                             />
 
                             {/* checkbox */}
@@ -67,7 +67,7 @@ const FormSection = () => {
                                     style={{
                                         background: 'linear-gradient(103.22deg, #5B53F9 0%, #AC71D6 40.58%, #FF8E57 101.45%)',
                                     }}
-                                    className='text-white rounded-full border-2 w-80 p-4'>
+                                    className='text-white rounded-full border-2 border-opacity-50 w-80 p-4'>
                                         Send your message 
                                     </button>
 

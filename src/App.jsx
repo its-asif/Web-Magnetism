@@ -26,7 +26,6 @@ function App() {
       <Companies/>
       <OurWork/>
       <ClientReview/>
-
       <LatestInsights/>
       <FormSection/>
       <Footer/>

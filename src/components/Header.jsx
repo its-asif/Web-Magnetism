@@ -33,7 +33,7 @@ const Header = () => {
             </section>
 
             {/* wave */}
-            <section className="wave-container mx-auto w-full">
+            <section className="mx-auto w-full">
                 <img src="Rectangle 17.png" alt="Wave Mosaic"
                     className='w-full'
                     style={{

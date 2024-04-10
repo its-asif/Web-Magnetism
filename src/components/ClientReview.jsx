@@ -43,7 +43,8 @@ const ClientReview = () => {
                 {`
                     .slick-dots li button:before {
                         color: #a855f7; 
-                        font-size: 16px;
+                        font-size: 14px;
+                        margin-top: 10px;
                     }
 
                     .slick-dots li.slick-active button:before {
